@@ -1,60 +1,113 @@
-# SavApp
+# 📦 Savon‑API
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+**Savon‑API** est une application front‑end développée avec **Angular**, servant de base pour créer une interface web moderne et prête à l’intégration avec des API.  
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Description
+
+Cette application fournit une structure Angular complète avec :
+
+- Composants modulaires
+- Routes configurées
+- Styles et assets prêts à l’emploi
+- Intégration facile avec des API REST ou SOAP à venir  
+
+C’est une base solide pour développer des interfaces web dynamiques et réactives.  
+
+---
+
+## 🛠️ Prérequis
+
+Avant d’installer le projet, assurez-vous d’avoir :
+
+- **Node.js** (version compatible Angular 21 ou plus récente)  
+- **npm** (gestionnaire de paquets)  
+- **Angular CLI** (optionnel mais recommandé)  
+
+Vérifiez vos versions :
 
 ```bash
+node -v
+npm -v
+ng version
+
+📥 Installation
+
+Clonez le dépôt :
+
+git clone https://github.com/Josue4231/Savon-api.git
+
+Déplacez-vous dans le dossier :
+
+cd Savon-api
+
+Installez les dépendances :
+
+npm install
+🚀 Lancer l’application en développement
+
+Démarrez le serveur Angular :
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Ouvrez ensuite votre navigateur à l’adresse :
 
-## Code scaffolding
+http://localhost:4200/
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+L’application se rechargera automatiquement à chaque modification du code.
 
-```bash
-ng generate component component-name
-```
+🛠️ Génération de composants et modules
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Angular CLI permet de créer facilement de nouveaux composants et modules :
 
-```bash
+Créer un composant :
+
+ng generate component nom-du-composant
+
+Créer un module :
+
+ng generate module nom-du-module
+
+Liste complète des commandes :
+
 ng generate --help
-```
+📦 Build pour production
 
-## Building
+Pour générer une version optimisée de l’application :
 
-To build the project run:
-
-```bash
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Les fichiers compilés seront placés dans le dossier dist/. Cette version est prête à être déployée sur un serveur web.
 
-## Running unit tests
+🧪 Tests
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Le projet utilise Vitest pour les tests unitaires :
 
-```bash
 ng test
-```
 
-## Running end-to-end tests
+Cette commande exécute tous les tests et affiche les résultats dans la console.
 
-For end-to-end (e2e) testing, run:
+📁 Structure du projet
 
-```bash
-ng e2e
-```
+src/ – code source Angular
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+src/app/ – composants et modules de l’application
 
-## Additional Resources
+.vscode/ – configuration de l’éditeur
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Savon-api
+angular.json, package.json, tsconfig.json – fichiers de configuration du projet
+
+📚 Ressources utiles
+
+Documentation Angular CLI
+
+Guide Angular
+
+💡 Remarques
+
+Ce dépôt correspond uniquement à la partie front‑end Angular.
+
+Il n’inclut pas encore de documentation pour la connexion avec un service SOAP ou l’API Savon côté serveur.
+
+Le projet est prêt à être étendu et intégré à une API backend.
