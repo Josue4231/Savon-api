@@ -23,7 +23,9 @@ Avant d’installer le projet, assurez-vous d’avoir :
 
 - **Node.js** (version compatible Angular 21 ou plus récente)  
 - **npm** (gestionnaire de paquets)  
-- **Angular CLI** (optionnel mais recommandé)  
+- **Angular CLI** (optionnel mais recommandé)
+
+  ---
 
 Vérifiez vos versions :
 
@@ -31,25 +33,31 @@ Vérifiez vos versions :
 node -v
 npm -v
 ng version
+```
 
-📥 Installation
+---
+
+## 📥 Installation
 
 Clonez le dépôt :
 
-git clone https://github.com/Josue4231/Savon-api.git
+```git clone https://github.com/Josue4231/Savon-api.git```
 
 Déplacez-vous dans le dossier :
 
-cd Savon-api
+```cd Savon-api```
 
 Installez les dépendances :
 
-npm install
-🚀 Lancer l’application en développement
+```npm install```
+
+---
+
+## 🚀 Lancer l’application en développement
 
 Démarrez le serveur Angular :
 
-ng serve
+```ng serve```
 
 Ouvrez ensuite votre navigateur à l’adresse :
 
@@ -57,7 +65,9 @@ http://localhost:4200/
 
 L’application se rechargera automatiquement à chaque modification du code.
 
-🛠️ Génération de composants et modules
+---
+
+## 🛠️ Génération de composants et modules
 
 Angular CLI permet de créer facilement de nouveaux composants et modules :
 
@@ -72,7 +82,10 @@ ng generate module nom-du-module
 Liste complète des commandes :
 
 ng generate --help
-📦 Build pour production
+
+---
+
+## 📦 Build pour production
 
 Pour générer une version optimisée de l’application :
 
@@ -80,7 +93,8 @@ ng build
 
 Les fichiers compilés seront placés dans le dossier dist/. Cette version est prête à être déployée sur un serveur web.
 
-🧪 Tests
+---
+## 🧪 Tests
 
 Le projet utilise Vitest pour les tests unitaires :
 
@@ -88,7 +102,9 @@ ng test
 
 Cette commande exécute tous les tests et affiche les résultats dans la console.
 
-📁 Structure du projet
+---
+
+## 📁 Structure du projet
 
 src/ – code source Angular
 
@@ -98,13 +114,17 @@ src/app/ – composants et modules de l’application
 
 angular.json, package.json, tsconfig.json – fichiers de configuration du projet
 
-📚 Ressources utiles
+---
+
+## 📚 Ressources utiles
 
 Documentation Angular CLI
 
 Guide Angular
 
-💡 Remarques
+---
+
+## 💡 Remarques
 
 Ce dépôt correspond uniquement à la partie front‑end Angular.
 
