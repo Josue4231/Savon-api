@@ -61,7 +61,7 @@ Démarrez le serveur Angular :
 
 Ouvrez ensuite votre navigateur à l’adresse :
 
-http://localhost:4200/
+```http://localhost:4200/```
 
 L’application se rechargera automatiquement à chaque modification du code.
 
@@ -73,7 +73,7 @@ Angular CLI permet de créer facilement de nouveaux composants et modules :
 
 Créer un composant :
 
-ng generate component nom-du-composant
+```ng generate component nom-du-composant```
 
 Créer un module :
 
@@ -81,7 +81,7 @@ ng generate module nom-du-module
 
 Liste complète des commandes :
 
-ng generate --help
+```ng generate --help```
 
 ---
 
@@ -89,7 +89,7 @@ ng generate --help
 
 Pour générer une version optimisée de l’application :
 
-ng build
+```ng build```
 
 Les fichiers compilés seront placés dans le dossier dist/. Cette version est prête à être déployée sur un serveur web.
 
@@ -98,7 +98,7 @@ Les fichiers compilés seront placés dans le dossier dist/. Cette version est p
 
 Le projet utilise Vitest pour les tests unitaires :
 
-ng test
+```ng test```
 
 Cette commande exécute tous les tests et affiche les résultats dans la console.
 
@@ -106,21 +106,21 @@ Cette commande exécute tous les tests et affiche les résultats dans la console
 
 ## 📁 Structure du projet
 
-src/ – code source Angular
+```src/ – code source Angular```
 
-src/app/ – composants et modules de l’application
+```src/app/ – composants et modules de l’application```
 
-.vscode/ – configuration de l’éditeur
+```.vscode/ – configuration de l’éditeur```
 
-angular.json, package.json, tsconfig.json – fichiers de configuration du projet
+```angular.json, package.json, tsconfig.json – fichiers de configuration du projet```
 
 ---
 
 ## 📚 Ressources utiles
 
-Documentation Angular CLI
+```Documentation Angular CLI
 
-Guide Angular
+Guide Angular```
 
 ---
 
